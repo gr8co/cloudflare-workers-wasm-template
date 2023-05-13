@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  vscode:
+    build: .
+    container_name: cf-workers-wasm-template
+    volumes:
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker-host.sock
+      - type: bind
+        source: ../
+        target: /workspaces/cloudflare-workers-wasm-template
+    init: true
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
+    networks:
+      - devenv
+networks:
+  devenv:
