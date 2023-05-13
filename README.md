@@ -6,8 +6,7 @@ This project uses Wrangler 2.
 - run `npx wrangler dev` to start development locally (it will ask you to login to Cloudflare)
     - open `http://localhost:8787` once started
 
-This project template showcases how you can call javascript functions within Rust through wasm-bindgen,
-and how to use Cloudflare workers with WASM through webpack.
+This project template shows how to develop a worker in pure Rust WASM
 
 Use as a wrangler template:
 ```console
