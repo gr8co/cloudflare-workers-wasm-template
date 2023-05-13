@@ -4,4 +4,4 @@ compatibility_date = "2023-03-22"
 send_metrics = false
 
 [build]
-command = "cargo install -q worker-build && worker-build --release"
+command = "npm install && cargo install -q worker-build && worker-build --release"

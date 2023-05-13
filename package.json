@@ -6,6 +6,9 @@
 		"deploy": "wrangler publish",
 		"dev": "wrangler dev --local"
 	},
+	"dependencies": {
+		"quotesy": "^1.0.9"
+	},
 	"devDependencies": {
 		"wrangler": "^2.20.0"
 	}
