@@ -11,7 +11,11 @@ and how to use Cloudflare workers with WASM through webpack.
 
 Use as a wrangler template:
 ```console
-npx wrangler generate $NAME https://github.com/ronaldslc/cloudflare-workers-wasm-template
+npm init cloudflare my-project https://github.com/gr8co/cloudflare-workers-wasm-template
+# or
+yarn create cloudflare my-project https://github.com/gr8co/cloudflare-workers-wasm-template
+# or
+$ pnpm create cloudflare my-project https://github.com/gr8co/cloudflare-workers-wasm-template
 ```
 
 # Documentation
