@@ -17,7 +17,7 @@ npm init cloudflare my-project https://github.com/gr8co/cloudflare-workers-wasm-
 # or
 yarn create cloudflare my-project https://github.com/gr8co/cloudflare-workers-wasm-template
 # or
-$ pnpm create cloudflare my-project https://github.com/gr8co/cloudflare-workers-wasm-template
+pnpm create cloudflare my-project https://github.com/gr8co/cloudflare-workers-wasm-template
 ```
 
 # Documentation
